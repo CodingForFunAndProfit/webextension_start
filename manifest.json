@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Webextension name",
+    "version": "1.0.0",
+    "description": "A Webextension description",
+    "homepage_url": "https://github.com/CodingForFunAndProfit/webextension_start",
+    "icons": {
+        "48": "icons/bookmark-it.png",
+        "96": "icons/bookmark-it@2x.png"
+    },
+
+    "permissions": ["bookmarks", "tabs"],
+
+    "browser_action": {
+        "default_icon": "icons/star-empty-38.png",
+        "default_title": "Extension Title"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
